@@ -5,12 +5,39 @@
     border-bottom: 8px solid #222;
     color: #fff;
     margin-bottom: 0;
-    padding: 50px 5%;
-    position: relative;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
    
  }
 
+ .email-form {
+    display: flex;
+    justify-content: center;
+ }
+
+ .story1 {
+    font-size: 70px !important;
+ }
+
+ .story2 {
+    font-size: 38px !important;
+ }
+
+ button {
+    margin-top: 7px !important;
+    margin-left: 0px !important;
+ }
+
+ .emaila {
+    padding: 80px 200px 0 !important;
+    width: 100% !important;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #000;
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+ }
  
 
  .bg-img {
@@ -41,9 +68,7 @@
     min-width: 10vw;
 }
 
-.story-card {
-    font-size: 40px;
-}
+
 
 .top {
     display: flex;
@@ -60,31 +85,35 @@ a {
     display: flex;
     justify-content: center;
     text-align: center;
-    align-items: center;
-    min-height: 100vh;
+    
 }
 
-.email {
-    border-radius: 3px;
-    color: #fff;
-    margin-top: 0.5rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: normal;
-}
 
-#section2, #section3 {
-    border-bottom: 10px solid black;
+#section2, .stranger-section, #section4, #section5 {
+    border-bottom: 8px solid #222;
 }
 
  
-.section, .stranger-section, #asked-question{
+.section, .stranger-section, #asked-question, #section4{
     display: flex;
     justify-content: center;
-    min-height: 50vh;
+    min-height: 70vh;
     background-color: black;
     color: white;
    
+}
+
+#section5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh !important;
+}
+
+.story-card {
+    text-align: left;
+    margin-top: 70px;
+    font-size: 40px;
 }
 
 .image-tv {
@@ -97,12 +126,53 @@ a {
     margin-left: 80px;
 }
 
+.text {
+    margin: 25px;
+   
+}
+
+.text-0 {
+    color: #fff;
+    font-size: .9em;
+    font-weight: 500;
+}
+
+.text-1 {
+    color: #0071eb;
+    font-size: .75em;
+    font-weight: 400;
+}
+
+.div-0 {
+    position: absolute;
+  
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 450px;
+    position: relative;
+    margin-left: 150px;
+    margin-right: 50px;
+    border: 2px solid hsla(0,0%,100%,.25);
+    border-radius: 0.75em;
+    box-shadow: 0 0 2em 0 #000;
+}
+
 #section4, #section5 {
     padding: 10px;
     min-height: 20vh;
     background-color: black;
-    color: white;
-    border-bottom: 10px solid black;
+    color: white; 
+}
+
+
+
+.stranger-text {
+    margin-left: 400px;
+    margin-top: 150px;
+    font-weight: 500;
 }
 
 input[type='checkbox'] {
