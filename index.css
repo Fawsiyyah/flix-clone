@@ -2,7 +2,7 @@
   .sub-background {
     min-height: 100vh;
     background: transparent;
-    border-bottom: 8px solid #222;
+    border-bottom: 8px solid #222 !important;
     color: #fff;
     margin-bottom: 0;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
@@ -40,12 +40,17 @@
  }
 
  button {
-    padding: 65px 100px 0 !important ;
+    margin-top: 10px !important;
+     padding: 33px 100px !important;
+    border: none;
    
  }
-
+.chevron-right-arrow {
+   margin-left: 20px;
+   font-weight: bolder !important;
+}
  .span {
-    padding-bottom: 100px;
+   text-align: center;
     font-size: 30px;
     
  }
@@ -99,19 +104,28 @@ a {
     
 }
 
+.download {
+    padding: 0px 100px;
+}
+
 
 #section2, .stranger-section, #section4, #section5 {
     border-bottom: 8px solid #222;
 }
 
  
-.section, .stranger-section, #asked-question, #section4{
+.section, .stranger-section{
     display: flex;
-    justify-content: center;
+    justify-content: center;  
+    min-height: 70vh;
+    background-color: black;
+    color: white; 
+}
+
+#asked-question {
     min-height: 70vh;
     background-color: black;
     color: white;
-   
 }
 
 #section5 {
@@ -122,9 +136,20 @@ a {
 }
 
 .story-card {
-    text-align: left;
+    text-align: left !important;
     margin-top: 70px;
     font-size: 40px;
+}
+
+.story-card2 {
+    text-align: left;
+    margin-top: 70px;
+    font-size: 30px;
+    margin-left: 100px !important;
+}
+
+.margins {
+    margin-bottom: 100px !important;
 }
 
 .image-tv {
@@ -197,59 +222,27 @@ input[type='checkbox'] {
     align-items: center;
   }
 
-  .questions-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .spacing {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
   
    .lbl-toggle {
     display: block;
     padding: 20px;
     background: #303030;
-    display: block;
-    text-align: left;
     cursor: pointer;
     border-radius: 7px;
     transition: all 0.25s ease-out;
     margin-bottom: 10px;
   }
-  
-  .lbl{
-    width: 100%;
-    font-size: 35px;
-  }
-  
-  .lbl-toggle:hover {
-    background: #303030;
-    display: block;
-    text-align: left;
-  }
-     
-  .collapsible-content .content-inner {
-    background: #303030;
-    display: block;
-    text-align: left;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    padding: .5rem 1rem;
-    font-size: 35px;
-  }
-  
-  .collapsible-content {
-    max-height: 0px;
-    overflow: hidden;
-    transition: max-height .25s ease-in-out;
-  }
-  
-  .toggle:checked + .lbl-toggle + .collapsible-content {
-    max-height: 100vh;
-  }
-  
-  .toggle:checked + .lbl-toggle::before{
-    transform: rotate(90deg) translateX(-3px);
-  }
 
+  .plus {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  
   footer {
     padding: 10px;
     min-height: 20vh;
@@ -279,6 +272,22 @@ ul li  a {
 .sect-1,.sect-2, .sect-3, .sect-4 {
     margin-right: 100px;
  
+}
+
+.plus {
+    margin-left: 1000px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.plus2 {
+    margin-left: 850px;
+    text-align: center;
+}
+
+.plus3 {
+    margin-left: 810px;
+    text-align: center;
 }
 
 .que {
