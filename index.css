@@ -58,7 +58,8 @@
 
  .bg-img {
     min-height: 100vh;
- background:linear-gradient(0deg, rgba(24, 22, 22, 0.932), rgba(24, 22, 22, 0.932)), url(./images/background.jpg);
+ background: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8)), url(./images/background.jpg);
+
  background-repeat: no-repeat;
  
  }
@@ -109,7 +110,7 @@ a {
 }
 
 
-#section2, .stranger-section, #section4, #section5 {
+#section2, .stranger-section, #section4, #section5, #asked-question{
     border-bottom: 8px solid #222;
 }
 
@@ -210,6 +211,8 @@ a {
     margin-top: 150px;
     font-weight: 500;
 }
+
+
 
 input[type='checkbox'] {
     display: none;
